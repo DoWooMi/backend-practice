@@ -74,8 +74,7 @@ public class RequestBodyJsonController {
      *
      * @ResponseBody 적용
      * - 메시지 바디 정보 직접 반환(view 조회X)
-     * - HttpMessageConverter 사용 -> MappingJackson2HttpMessageConverter 적용
-    (Accept: application/json)
+     * - HttpMessageConverter 사용 -> MappingJackson2HttpMessageConverter 적용 (Accept: application/json)
      */
     @ResponseBody
     @PostMapping("/request-body-json-v5")
